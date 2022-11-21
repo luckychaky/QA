@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#GGG2-460] Добавить товар в список избранных из каталога товаров не функционирует </title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-qa.jetru.by/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [GGG2-460]&nbsp;<a href="https://jira-qa.jetru.by/browse/GGG2-460">Добавить товар в список избранных из каталога товаров не функционирует </a>
+            <span class="subText">
+               Cоздано: 03/ноя/22                   &nbsp;Обновленo: 06/ноя/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://jira-qa.jetru.by/secure/BrowseProject.jspa?id=10700">2022</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Не заполнено
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Затронуты версии:</b></td>
+            <td>
+                            Не заполнено
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Исправить в версиях:</b></td>
+            <td>
+                            Не заполнено
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Ошибка
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="skibava" id="word_reporter_skibava" href="https://jira-qa.jetru.by/secure/ViewProfile.jspa?name=skibava">Skiba Vitaly</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="lashkova-larisa" id="word_assignee_lashkova-larisa" href="https://jira-qa.jetru.by/secure/ViewProfile.jspa?name=lashkova-larisa">Larisa Hutro</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-12800-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Не заполнено
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оставшееся время:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Первоначальная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Окружение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Mac OS Бета 13.1 </p>
+
+<p>Safari Версия 16.1 </p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Начальные условия:</p>
+
+<p>Пользователь находится в подменю товаров Create - All shoes <a href="https://duques-qa.jetruby.cloud/products" class="external-link" target="_blank" rel="nofollow noopener">https://duques-qa.jetruby.cloud/products</a></p>
+
+<p>Сценарий:</p>
+<ol>
+	<li>Пользователь навел курсор мыши на карточку товара и в правом верхнем углу, отображается панель действий с товаром.</li>
+	<li>Пользователь нажимает на иконку (сердце) -добавить товар в избранное.</li>
+</ol>
+
+
+<p>Ожидаемый результат: товар добавляется в список избранных товаров, инконка товаров в избранном в хедере обновляется. </p>
+
+<p>Фактический результат: при нажатии на добавление товара в избранное добавление не происходит, а открывается страница товара.</p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Полученный Mon Nov 21 09:04:26 GMT 2022 Skiba Vitaly используя Jira 8.15.0#815001-sha1:9cd993cd5d44d1112926026f768b18ff3cb391a3.
+
+</body>
+</html>
